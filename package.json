@@ -1,0 +1,34 @@
+{
+    "name": "nestjs-fixtures",
+    "version": "0.0.1",
+    "description": "A NestJS module to manage fixtures files",
+    "author": "Alex Hermann <alex@pop-code.com>",
+    "repository": "https://github.com/Pop-Code/nestjs-fixtures.git",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "rm -Rf build && tsc -p tsconfig.build.json",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:cov": "jest --coverage",
+        "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+        "test:e2e": "jest --config ./test/jest-e2e.json",
+        "test:e2e:debug": "node --inspect-brk  node_modules/.bin/jest --config ./test/jest-e2e.json",
+        "doc": "rm -Rf docs && typedoc"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "^6.1.0",
+        "nestjs-console": "1.0.0"
+    },
+    "devDependencies": {
+        "@nestjs/common": "^6.1.0",
+        "@nestjs/core": "^6.1.0",
+        "@types/jest": "24.0.11",
+        "@types/node": "^11.13.5",
+        "jest": "^24.7.1",
+        "nestjs-console": "1.0.0",
+        "reflect-metadata": "0.1.12",
+        "rxjs": "^6.0.0",
+        "typescript": "^3.0.0",
+        "typedoc": "^0.14.2"
+    }
+}

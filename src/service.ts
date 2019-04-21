@@ -61,7 +61,7 @@ export class FixturesService {
     }
 
     private logData(data: any) {
-        process.stdout.write(JSON.stringify(data));
+        process.stdout.write(JSON.stringify(data) + '\n');
         return this;
     }
 
@@ -96,7 +96,7 @@ export class FixturesService {
             r.error
                 ? this.loader.fail(`${r.name} => ${r.error.message}`)
                 : this.loader.succeed(
-                      `${r.name}fixtures were inserted with success`
+                      `${r.name} fixtures were inserted with success`
                   )
         );
 

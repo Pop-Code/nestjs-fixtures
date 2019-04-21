@@ -17,7 +17,7 @@
     },
     "peerDependencies": {
         "@nestjs/common": "^6.1.0",
-        "nestjs-console": "1.0.0"
+        "nestjs-console": "1.0.1"
     },
     "devDependencies": {
         "@nestjs/common": "^6.1.0",
@@ -25,7 +25,7 @@
         "@types/jest": "24.0.11",
         "@types/node": "^11.13.5",
         "jest": "^24.7.1",
-        "nestjs-console": "1.0.0",
+        "nestjs-console": "1.0.1",
         "reflect-metadata": "0.1.12",
         "rxjs": "^6.0.0",
         "typescript": "^3.0.0",

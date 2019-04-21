@@ -20,15 +20,15 @@
         "nestjs-console": "1.0.1"
     },
     "devDependencies": {
-        "@nestjs/common": "^6.1.0",
-        "@nestjs/core": "^6.1.0",
+        "@nestjs/common": "6.1.1",
+        "@nestjs/core": "6.1.1",
         "@types/jest": "24.0.11",
-        "@types/node": "^11.13.5",
-        "jest": "^24.7.1",
+        "@types/node": "11.13.5",
+        "jest": "24.7.1",
         "nestjs-console": "1.0.1",
         "reflect-metadata": "0.1.12",
-        "rxjs": "^6.0.0",
-        "typescript": "^3.0.0",
-        "typedoc": "^0.14.2"
+        "rxjs": "6.4.0",
+        "typescript": "3.4.4",
+        "typedoc": "0.14.2"
     }
 }

@@ -27,7 +27,7 @@
         "jest": "24.7.1",
         "nestjs-console": "1.0.1",
         "reflect-metadata": "0.1.13",
-        "rxjs": "6.4.0",
+        "rxjs": "6.5.2",
         "typescript": "3.4.4",
         "typedoc": "0.14.2"
     }

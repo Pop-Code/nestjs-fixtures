@@ -22,7 +22,7 @@
     "devDependencies": {
         "@nestjs/common": "6.1.1",
         "@nestjs/core": "6.1.1",
-        "@types/jest": "24.0.11",
+        "@types/jest": "24.0.13",
         "@types/node": "11.13.6",
         "jest": "24.7.1",
         "nestjs-console": "1.0.1",

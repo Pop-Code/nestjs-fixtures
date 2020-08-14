@@ -883,7 +883,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.20.0, commander@~2.20.0:
+commander@~2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
@@ -2633,12 +2633,11 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-nestjs-console@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nestjs-console/-/nestjs-console-1.1.0.tgz#680cd6f37254a82adc0b55649385377c187a27ee"
-  integrity sha512-OQbEQqqTRQhOnIJeIs8H/SCPX0cw54bskAcD6jdO9QYgMpj9tg25Gzlqyb+Fpd2zTLY3LUnjr84qNX4RbG1PXQ==
+nestjs-console@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/nestjs-console/-/nestjs-console-1.2.2.tgz#2bd9ce451f8df7200cc8aaf22b0d417cb68a45e6"
+  integrity sha512-K02K/mOfLnzTqfu7iA/M+zqsqn2Zl+Um2J5wuj0bfwJqLXKGKX4VgAIG3sQ3aftGm/ukO7XIG5IolM7ihIJ66w==
   dependencies:
-    commander "^2.20.0"
     ora "^3.4.0"
 
 next-tick@1, next-tick@^1.0.0:

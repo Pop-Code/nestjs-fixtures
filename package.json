@@ -17,12 +17,12 @@
         "doc": "rm -Rf docs && typedoc"
     },
     "peerDependencies": {
-        "@nestjs/common": "^6.1.0",
+        "@nestjs/common": "^6.1.0 || ^7.0.0",
         "nestjs-console": "^1.0.2"
     },
     "devDependencies": {
-        "@nestjs/common": "6.3.2",
-        "@nestjs/core": "6.3.2",
+        "@nestjs/common": "7.3.1",
+        "@nestjs/core": "7.3.1",
         "@types/jest": "24.0.15",
         "@types/node": "12.0.10",
         "jest": "24.8.0",

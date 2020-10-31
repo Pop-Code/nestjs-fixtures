@@ -30,6 +30,6 @@
         "reflect-metadata": "0.1.13",
         "rxjs": "6.5.2",
         "typescript": "3.5.2",
-        "typedoc": "0.14.2"
+        "typedoc": "0.17.8"
     }
 }
